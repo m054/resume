@@ -1,0 +1,45 @@
+<div class="header" [ngClass] = "{'header--active' : isActive}">
+    <div class="container">
+        <section class="header_image">
+            <div class="row">
+                <div class="col-lg-12 center">
+                    <div class="header_image_container">
+                        <img class="img-fluid" src="https://picsum.photos/300/300" alt="">
+                    </div>
+                    <h2 class="text-center">Miriam Israely</h2>
+                    <h5 class="text-center">full stack developer</h5>
+                </div>
+            </div>
+        </section>
+        <section class="header_links">
+            <!-- <div class="container text-center">
+                <a target="_blank" href="htpps:/github"></a>
+            </div> -->
+        </section>
+        <section class="header_nav">
+            <ul>
+                <li>
+                    <a href="#home">Home</a>
+                </li>
+                <li>
+                    <a href="#about">About</a>
+                </li>
+                <li>
+                    <a href="#resume">Resume</a>
+                </li>
+                <li>
+                    <a href="#portfolio">Portfolio</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+        </section>
+    </div>
+</div>
+
+ <div class="menu-btn-container">
+    <button  (click)="toggleMenu()">
+        <i class="fas fa-bars"></i>
+    </button>
+</div>
